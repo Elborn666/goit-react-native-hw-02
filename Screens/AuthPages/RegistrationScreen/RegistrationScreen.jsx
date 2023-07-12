@@ -79,7 +79,6 @@ const RegistrationScreen = () => {
                 <TextInput
                   style={{ ...input, ...inputLast }}
                   placeholder="Пароль"
-                  onFocus={handleFocus}
                 />
                 <TouchableOpacity style={btnPassShow}>
                   <Text style={btnPassShowText}>Показати</Text>

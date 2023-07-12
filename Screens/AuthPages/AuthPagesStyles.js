@@ -1,7 +1,6 @@
 import { Dimensions, StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
   },
   bgContainer: {
     width: '100%',
@@ -16,7 +15,6 @@ const styles = StyleSheet.create({
     height: Dimensions.get('window').height,
   },
   keyboardView: {
-    width: '100%',
   },
   contentWrapper: {
     paddingHorizontal: 16,
